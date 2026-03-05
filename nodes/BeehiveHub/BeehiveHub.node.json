@@ -1,0 +1,18 @@
+{
+	"node": "n8n-nodes-beehivehub",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Finance & Accounting"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://paybeehive.readme.io/reference/introducao"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://paybeehive.readme.io/reference/introducao"
+			}
+		]
+	}
+}
