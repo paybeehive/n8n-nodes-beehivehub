@@ -1,0 +1,33 @@
+# Testes
+__tests__/
+test/
+tests/
+*.test.js
+*.test.ts
+*.spec.js
+*.spec.ts
+coverage/
+
+# Configurações de tooling
+.eslintrc*
+eslint.config.*
+.prettierrc*
+.babelrc
+tsconfig.json
+jest.config.*
+.editorconfig
+
+# CI/CD e ambiente
+.github/
+.claude/
+.env
+.env.*
+
+# Documentação de desenvolvimento
+docs/
+CONTRIBUTING.md
+
+# Outros
+node_modules/
+*.log
+.DS_Store
