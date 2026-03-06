@@ -1,8 +1,8 @@
 # n8n-nodes-beehivehub
 
-This is an n8n community node. It lets you use the [BeehiveHub](https://paybeehive.com.br) payment gateway in your n8n workflows.
+This is an n8n community node. It lets you use the [Beehive Pay](https://paybeehive.com.br) payment gateway in your n8n workflows.
 
-BeehiveHub is a payment platform that supports PIX, Boleto and Credit Card transactions. This node allows you to automate payment processing, customer management, transfers, balance queries and payment links directly from n8n.
+Beehive Pay is a payment platform that supports PIX, Boleto and Credit Card transactions. This node allows you to automate payment processing, customer management, transfers, balance queries and payment links directly from n8n.
 
 [n8n](https://n8n.io/) is a [fair-code licensed](https://docs.n8n.io/reference/license/) workflow automation platform.
 
@@ -24,13 +24,13 @@ Follow the [installation guide](https://docs.n8n.io/integrations/community-nodes
 1. Open your n8n instance
 2. Go to **Settings > Community Nodes**
 3. Select **Install a community node**
-4. Enter `n8n-nodes-beehivehub`
+4. Enter `@paybeehive/n8n-nodes-beehivehub`
 5. Confirm the installation
 
 **Via npm (self-hosted):**
 
 ```bash
-npm install n8n-nodes-beehivehub
+npm install @paybeehive/n8n-nodes-beehivehub
 ```
 
 Then restart your n8n instance.
@@ -43,7 +43,7 @@ To use this node you need a **BeehiveHub API Secret Key**.
 
 ### How to obtain your key
 
-1. Log in to the [BeehiveHub Dashboard](https://conta.paybeehive.com.br)
+1. Log in to the [Beehive Pay Dashboard](https://app.conta.paybeehive.com.br/login)
 2. Navigate to your account settings / API Keys section
 3. Copy your **Secret Key** (`sk_live_...`)
 
@@ -117,7 +117,7 @@ Tested with n8n self-hosted. Should work with n8n Cloud after community node ver
 
 ### Amounts in cents
 
-All monetary values in the BeehiveHub API are expressed in **centavos** (cents). For example, `R$ 49,90` must be sent as `4990`.
+All monetary values in the Beehive Pay API are expressed in **centavos** (cents). For example, `R$ 49,90` must be sent as `4990`.
 
 ### Payment methods
 
@@ -137,7 +137,7 @@ This node is flagged as `usableAsTool`, so it can be used as a tool by n8n AI Ag
 
 ## Resources
 
-- [BeehiveHub API Documentation](https://paybeehive.readme.io/reference/introducao)
+- [Beehive Pay API Documentation](https://paybeehive.readme.io/reference/introducao)
 - [n8n Community Nodes documentation](https://docs.n8n.io/integrations/community-nodes/)
 - [n8n Community Forum](https://community.n8n.io/)
 
