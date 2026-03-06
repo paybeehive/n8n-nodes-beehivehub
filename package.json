@@ -1,54 +1,57 @@
 {
-	"name": "@paybeehive/n8n-nodes-beehivehub",
-	"version": "1.0.0",
-	"description": "n8n node for the Beehive Payment API",
-	"license": "MIT",
-	"homepage": "https://github.com/paybeehive/n8n-nodes-beehivehub",
-	"keywords": [
-		"n8n-community-node-package"
-	],
-	"author": {
-		"name": "Beehive"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/paybeehive/n8n-nodes-beehivehub.git"
-	},
-	"scripts": {
-		"build": "n8n-node build",
-		"build:watch": "tsc --watch",
-		"dev": "n8n-node dev",
-		"lint": "n8n-node lint",
-		"lint:fix": "n8n-node lint --fix",
-		"release": "n8n-node release",
-		"prepublishOnly": "n8n-node prerelease",
-		"test": "jest",
-		"test:coverage": "jest --coverage"
-	},
-	"files": [
-		"dist"
-	],
-	"n8n": {
-		"n8nNodesApiVersion": 1,
-		"strict": true,
-		"credentials": [
-			"dist/credentials/BeehiveHubApi.credentials.js"
-		],
-		"nodes": [
-			"dist/nodes/BeehiveHub/BeehiveHub.node.js"
-		]
-	},
-	"devDependencies": {
-		"@n8n/node-cli": "*",
-		"@types/jest": "^30.0.0",
-		"eslint": "9.32.0",
-		"jest": "^30.2.0",
-		"prettier": "3.6.2",
-		"release-it": "^19.0.4",
-		"ts-jest": "^29.4.6",
-		"typescript": "5.9.2"
-	},
-	"peerDependencies": {
-		"n8n-workflow": "*"
-	}
+    "name": "@paybeehive/n8n-nodes-beehivehub",
+    "version": "1.0.0",
+    "description": "n8n node for the Beehive Payment API",
+    "license": "MIT",
+    "homepage": "https://github.com/paybeehive/n8n-nodes-beehivehub",
+    "keywords": [
+        "n8n-community-node-package"
+    ],
+    "author": {
+        "name": "Beehive"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/paybeehive/n8n-nodes-beehivehub.git"
+    },
+    "engines": {
+        "node": ">=22"
+    },
+    "scripts": {
+        "build": "n8n-node build",
+        "build:watch": "tsc --watch",
+        "dev": "n8n-node dev",
+        "lint": "n8n-node lint",
+        "lint:fix": "n8n-node lint --fix",
+        "release": "n8n-node release",
+        "prepublishOnly": "n8n-node prerelease",
+        "test": "jest",
+        "test:coverage": "jest --coverage"
+    },
+    "files": [
+        "dist"
+    ],
+    "n8n": {
+        "n8nNodesApiVersion": 1,
+        "strict": true,
+        "credentials": [
+            "dist/credentials/BeehiveHubApi.credentials.js"
+        ],
+        "nodes": [
+            "dist/nodes/BeehiveHub/BeehiveHub.node.js"
+        ]
+    },
+    "devDependencies": {
+        "@n8n/node-cli": "*",
+        "@types/jest": "^30.0.0",
+        "eslint": "9.32.0",
+        "jest": "^30.2.0",
+        "prettier": "3.6.2",
+        "release-it": "^19.0.4",
+        "ts-jest": "^29.4.6",
+        "typescript": "5.9.2"
+    },
+    "peerDependencies": {
+        "n8n-workflow": "*"
+    }
 }
