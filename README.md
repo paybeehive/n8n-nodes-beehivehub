@@ -1,8 +1,8 @@
 # n8n-nodes-beehivehub
 
-This is an n8n community node. It lets you use the [Beehive Pay](https://paybeehive.com.br) payment gateway in your n8n workflows.
+This is an n8n community node by BeehiveHub. It lets you use the [PayBeehive](https://paybeehive.com.br) payment gateway in your n8n workflows.
 
-Beehive Pay is a payment platform that supports PIX, Boleto and Credit Card transactions. This node allows you to automate payment processing, customer management, transfers, balance queries and payment links directly from n8n.
+PayBeehive is a payment platform that supports PIX, Boleto and Credit Card transactions. This node allows you to automate payment processing, customer management, transfers, balance queries and payment links directly from n8n.
 
 [n8n](https://n8n.io/) is a [fair-code licensed](https://docs.n8n.io/reference/license/) workflow automation platform.
 
@@ -23,7 +23,7 @@ Follow the [installation guide](https://docs.n8n.io/integrations/community-nodes
 
 1. Open your n8n instance
 2. Go to **Settings > Community Nodes**
-3. Select **Install a community node**
+3. Select the **Install** button
 4. Enter `@paybeehive/n8n-nodes-beehivehub`
 5. Confirm the installation
 
@@ -33,8 +33,6 @@ Follow the [installation guide](https://docs.n8n.io/integrations/community-nodes
 npm install @paybeehive/n8n-nodes-beehivehub
 ```
 
-Then restart your n8n instance.
-
 ---
 
 ## Credentials
@@ -43,13 +41,13 @@ To use this node you need a **BeehiveHub API Secret Key**.
 
 ### How to obtain your key
 
-1. Log in to the [Beehive Pay Dashboard](https://app.conta.paybeehive.com.br/login)
+1. Log in to the [PayBeehive Dashboard](https://app.conta.paybeehive.com.br/login)
 2. Navigate to your account settings / API Keys section
 3. Copy your **Secret Key** (`sk_live_...`)
 
 ### Setting up credentials in n8n
 
-1. In n8n, go to **Credentials > New Credential**
+1. In n8n, go to **Credentials > Create Credential**
 2. Search for **BeehiveHub API**
 3. Paste your Secret Key
 4. Click **Save** — n8n will automatically test the connection
@@ -117,7 +115,7 @@ Tested with n8n self-hosted. Should work with n8n Cloud after community node ver
 
 ### Amounts in cents
 
-All monetary values in the Beehive Pay API are expressed in **centavos** (cents). For example, `R$ 49,90` must be sent as `4990`.
+All monetary values in the PayBeehive API are expressed in **centavos** (cents). For example, `R$ 49,90` must be sent as `4990`.
 
 ### Payment methods
 
@@ -137,7 +135,7 @@ This node is flagged as `usableAsTool`, so it can be used as a tool by n8n AI Ag
 
 ## Resources
 
-- [Beehive Pay API Documentation](https://paybeehive.readme.io/reference/introducao)
+- [PayBeehive API Documentation](https://paybeehive.readme.io/reference/introducao)
 - [n8n Community Nodes documentation](https://docs.n8n.io/integrations/community-nodes/)
 - [n8n Community Forum](https://community.n8n.io/)
 
