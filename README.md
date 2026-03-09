@@ -1,8 +1,8 @@
 # n8n-nodes-beehivehub
 
-This is an n8n community node by BeehiveHub. It lets you use the [PayBeehive](https://paybeehive.com.br) payment gateway in your n8n workflows.
+This is an n8n community node by Beehive Hub. It lets you use the [paybeehive](https://paybeehive.com.br) payment gateway in your n8n workflows.
 
-PayBeehive is a payment platform that supports PIX, Boleto and Credit Card transactions. This node allows you to automate payment processing, customer management, transfers, balance queries and payment links directly from n8n.
+paybeehive is a payment platform that supports PIX, Boleto and Credit Card transactions. This node allows you to automate payment processing, customer management, transfers, balance queries and payment links directly from n8n.
 
 [n8n](https://n8n.io/) is a [fair-code licensed](https://docs.n8n.io/reference/license/) workflow automation platform.
 
@@ -41,7 +41,7 @@ To use this node you need a **BeehiveHub API Secret Key**.
 
 ### How to obtain your key
 
-1. Log in to the [PayBeehive Dashboard](https://app.conta.paybeehive.com.br/login)
+1. Log in to the [paybeehive Dashboard](https://app.conta.paybeehive.com.br/login)
 2. Navigate to your account settings / API Keys section
 3. Copy your **Secret Key** (`sk_live_...`)
 
@@ -115,7 +115,7 @@ Tested with n8n self-hosted. Should work with n8n Cloud after community node ver
 
 ### Amounts in cents
 
-All monetary values in the PayBeehive API are expressed in **centavos** (cents). For example, `R$ 49,90` must be sent as `4990`.
+All monetary values in the paybeehive API are expressed in **centavos** (cents). For example, `R$ 49,90` must be sent as `4990`.
 
 ### Payment methods
 
@@ -135,7 +135,7 @@ This node is flagged as `usableAsTool`, so it can be used as a tool by n8n AI Ag
 
 ## Resources
 
-- [PayBeehive API Documentation](https://paybeehive.readme.io/reference/introducao)
+- [paybeehive API Documentation](https://paybeehive.readme.io/reference/introducao)
 - [n8n Community Nodes documentation](https://docs.n8n.io/integrations/community-nodes/)
 - [n8n Community Forum](https://community.n8n.io/)
 
